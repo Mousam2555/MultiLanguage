@@ -1,2 +1,0 @@
-# MultiLanguage
-multilanguage backgroundchange
