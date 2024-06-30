@@ -56,7 +56,7 @@ function authenticateByMobile(language) {
 
 function sendOtpToEmail(email) {
     const actionCodeSettings = {
-        url: 'http://localhost:5500',
+        url: 'https://mousam2555.github.io/MultiLanguage/',
         handleCodeInApp: true
     };
 
