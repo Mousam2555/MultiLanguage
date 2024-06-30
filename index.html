@@ -1,3 +1,5 @@
+<!-- Run using this python -m http.server 8000  & oepn this :http://localhost:8000/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,13 +7,15 @@
     <meta charset="UTF-8">
     <title>Multi-Language Support</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+    <script src="https://unpkg.com/i18next@21.6.3/dist/umd/i18next.min.js"></script>
 </head>
 
 <body id="body">
     <div class="container">
         <header>
             <h1>Welcome to Our Website</h1>
-
         </header>
 
         <div class="language-selector">
@@ -28,9 +32,9 @@
         <main id="content">
             <!-- Translated content will be loaded here -->
         </main>
+        <div id="recaptcha-container"></div> <!-- Add this div for reCAPTCHA -->
     </div>
 
-    <script src="https://unpkg.com/i18next@21.6.3/dist/umd/i18next.min.js"></script>
     <script src="script.js"></script>
 </body>
 
