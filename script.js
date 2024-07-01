@@ -1,13 +1,13 @@
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDeLCfeRIwlSgECH5N05gz1by1z5ZGz7SI",
-    authDomain: "multilanguage-88ea0.firebaseapp.com",
-    projectId: "multilanguage-88ea0",
-    storageBucket: "multilanguage-88ea0.appspot.com",
-    messagingSenderId: "982228267903",
-    appId: "1:982228267903:web:58e1bcad187c759807e04a",
-    measurementId: "G-PK2CMLSV79"
-  };
+  apiKey: "AIzaSyDeLCfeRIwlSgECH5N05gz1by1z5ZGz7SI",
+  authDomain: "multilanguage-88ea0.firebaseapp.com",
+  projectId: "multilanguage-88ea0",
+  storageBucket: "multilanguage-88ea0.appspot.com",
+  messagingSenderId: "982228267903",
+  appId: "1:982228267903:web:58e1bcad187c759807e04a",
+  measurementId: "G-PK2CMLSV79"
+};
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
